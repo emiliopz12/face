@@ -20,6 +20,8 @@ gem 'coffee-rails', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'mongoid'
+gem 'omniauth-facebook' # Facebook authentication
+gem "koala"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
