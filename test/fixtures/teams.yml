@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  titulos: 1
+  finales: 1
+  seguidores: 1
+  creacion: 2017-02-18
+
+two:
+  nombre: MyString
+  titulos: 1
+  finales: 1
+  seguidores: 1
+  creacion: 2017-02-18

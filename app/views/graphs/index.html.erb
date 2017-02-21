@@ -1,0 +1,13 @@
+<h1 class="h1">Graphs</h1>
+<%= link_to 'Home', controller: 'welcome',  class: "ui-button-text button_text"  %>
+
+<%= pie_chart @teams.pluck(:nombre, :titulos), colors: ["#b00", "#9A11CC", "#F2E30D"], title: "Número de campeonatos por equipo" %>
+<br>
+<br>
+<%= line_chart @teams.pluck(:nombre, :titulos), colors: ["#b00", "#9A11CC", "#F2E30D"], ytitle: "Número de campeonatos", xtitle: "Equipo" %>
+<br>
+<br>
+<%= column_chart  @teams.pluck(:nombre, :titulos), colors: ["#b00", "#9A11CC", "#F2E30D"], ytitle: "Número de campeonatos", xtitle: "Equipo" , stacked: true %>
+<br>
+
+
