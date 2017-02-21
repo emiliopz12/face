@@ -1,0 +1,11 @@
+development:
+  clients:
+    default:
+      database: em4iVyge
+      hosts:
+        - olympia.modulusmongo.net:27017
+      options:
+        user: 'node'
+        password: 'nodeuser'
+        
+ 
