@@ -1,9 +1,0 @@
-development:
-  clients:
-    default:
-      database: faceDB
-      hosts:
-        - olympia.modulusmongo.net:27017/em4iVyge
-      options:
-        user: 'node'
-        password: 'nodeuser'
